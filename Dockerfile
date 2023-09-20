@@ -1,5 +1,4 @@
 FROM node:0.10.41
-RUN apt-get update
 RUN apt-get install git -y
 RUN git clone https://github.com/yathishmohan/AatmaaniProject.git
 
